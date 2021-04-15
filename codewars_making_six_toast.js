@@ -16,6 +16,7 @@ And in case of 12 you need 6 toasts less (but not -6):
 six_toast(12) == 6
 */
 
-function sixToast(num) {
-  // you code here
+const sixToast = (num) => {
+  let amount = 6 - num;
+  return amount > 0 ? amount : amount * -1;
 }
